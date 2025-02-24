@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Poetry Archive</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+    <div class="header">
+        <h1>The Archive</h1>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Ivy')">Ivy's Archive</button>
+            <button class="tablinks" onclick="openTab(event, 'Liz')">Liz's Archive</button>
+            <button class="tablinks" onclick="openTab(event, 'Other')">Other Stuff</button>
+          </div> 
+    </div>
+    <div id="Ivy" class="tabcontent">
+        <div class="leftRow">
+            <div class="entry">
+                <h3>Poem Title</h3>
+                <div class="desc">
+                    <h5>Author</h5>
+                    <h5>Date sent</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Liz" class="tabcontent">
+        <div class="rightRow">
+            <div class="entry">
+                <h3>Poem Title</h3>
+                <div class="desc">
+                    <h5>Author</h5>
+                    <h5>Date sent</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- in css: change from block to inline
+     and size!!!-->
+   
+    <canvas id="candleInd" width="30" height="100">
+        <script>
+            var c = get.ElementById("candleInd");
+            var ctx = c.getContext("2d");
+            //draw two arches (????), figure out how tf to animate it
+        </script>
+    </canvas>
+</body>
+</html>
