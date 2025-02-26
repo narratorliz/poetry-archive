@@ -4,36 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Poetry Archive</title>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <h1>The Archive</h1>
-        <div class="tab">
+    <span class="header">
+        <span id="title">The Archive</span>
+        <span class="tab">
             <button class="tablinks" onclick="openTab(event, 'Ivy')">Ivy's Archive</button>
             <button class="tablinks" onclick="openTab(event, 'Liz')">Liz's Archive</button>
             <button class="tablinks" onclick="openTab(event, 'Other')">Other Stuff</button>
-          </div> 
-    </div>
+        </span> 
+    </span>
     <div id="Ivy" class="tabcontent">
         <div class="leftRow">
             <div class="entry">
                 <a href="entry.html" id="entryTitle">Poem Title</a>
-                <div class="desc">
-                    <h5>Author</h5>
-                    <h5>Date sent</h5>
-                </div>
+                <span class="desc">
+                    <span class="author">Author</span>
+                    <span class="date">Date sent</span>
+                </span>
             </div>
+        </div>
+        <div class="imageBox">
+            <img id="imageIvy" src="ivyindex.png">
         </div>
     </div>
     <div id="Liz" class="tabcontent">
         <div class="rightRow">
             <div class="entry">
                 <a href="entry.html" id="entryTitle">Poem Title</a>
-                <div class="desc">
-                    <h5>Author</h5>
-                    <h5>Date sent</h5>
-                </div>
+                <span class="desc">
+                    <span class="author">Author</span>
+                    <span class="date">Date sent</span>
+                </span>
             </div>
         </div>
     </div>
@@ -41,10 +44,10 @@
         <div class="rightRow">
             <div class="entry">
                 <a href="stuff.html" id="entryTitle">Poem Title</a>
-                <div class="desc">
-                    <h5>Author</h5>
-                    <h5>Date sent</h5>
-                </div>
+                <span class="desc">
+                    <span class="author">Author</span>
+                    <span class="date">Date sent</span>
+                </span>
             </div>
         </div>
     </div>

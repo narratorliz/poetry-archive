@@ -1,12 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  .tablinks {
+    border: none;
+    background-color:rgb(17, 17, 17);
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 0px;
+    font-size: 17px;
+    width: 10%;
+  }
+  .tablinks:hover {
+    text-decoration: underline;
+  }
+  #title{
+    color: white;
+    font-size: 40px;
+    width: 25%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .leftRow{
+    float: left;
+  }
+  
+  #imageIvy{
+    max-height: 80vh;
+    text-align: right;
+  }
+  .imageBox{
+    height: 80%;
+    width: 65%;
+    position: fixed;
+    right:5vw;
+    top: 10%;
+ 
+  }
 body{
     background-color: rgb(17, 17, 17);
-    h1{
-        color:white
+    h1, h5, h3, a{
+        color:white;
+        text-decoration: none;
     }
-    h5{
-        color:white
-    }
-    h3{
-        color:white
-    }
+    opacity: 0;
+    animation: fadeIn 800ms forwards;
+}
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
+}
+.desc{
+    color: white;
+    font-size: 11px;
 }
