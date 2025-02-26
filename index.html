@@ -10,12 +10,12 @@
     <span class="header">
         <span id="title">The Archive</span>
         <span class="tab">
-            <button class="tablinks" onclick="openTab(event, 'Ivy')">Ivy's Archive</button>
-            <button class="tablinks" onclick="openTab(event, 'Liz')">Liz's Archive</button>
-            <button class="tablinks" onclick="openTab(event, 'Other')">Other Stuff</button>
+            <button class="tablinks" data-tab="Ivy">Ivy's Archive</button>
+            <button class="tablinks" data-tab="Liz">Liz's Archive</button>
+            <button class="tablinks" data-tab="Other">Other Stuff</button>
         </span> 
     </span>
-    <div id="Ivy" class="tabcontent">
+    <div id="Ivy" class="tabcontent active">
         <div class="leftRow">
             <div class="entry">
                 <a href="entry.html" id="entryTitle">Poem Title</a>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="imageBox">
-            <img id="imageIvy" src="ivyindex.png">
+            <img id="imageIvy" src="assets/ivyindex.png">
         </div>
     </div>
     <div id="Liz" class="tabcontent">
@@ -38,6 +38,9 @@
                     <span class="date">Date sent</span>
                 </span>
             </div>
+        </div>
+        <div class="imageBoxLiz">
+            <img id="imageLiz" src="assets/imageliz.png">
         </div>
     </div>
     <div id="Other" class="tabcontent">
@@ -51,7 +54,23 @@
             </div>
         </div>
     </div>
-    <!-- in css: change from block to inline
-     and size!!!-->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".tablinks");
+            const contents = document.querySelectorAll(".tabcontent");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const tabId = this.getAttribute("data-tab");
+
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    contents.forEach(content => content.classList.remove("active"));
+
+                    this.classList.add("active");
+                    document.getElementById(tabId).classList.add("active");
+                });
+            });
+        });
+    </script>
 </body>
 </html>
