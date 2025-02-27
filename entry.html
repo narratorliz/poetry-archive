@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <style>
+        body{
+            background-image:url("assets/ivyBG.png");
+            background-repeat:no-repeat;
+            background-size: 100%;
+        }
+        #letter{
+            background-color: rgb(217, 209, 201) ;
+            width:60%;
+            margin-right: 20%;
+            margin-left: auto;
+            margin-top: 20%;
+            padding:30px;
+        }
+    </style>
     <span class="header">
         <span id="title">The Archive</span>
         <span class="tab">
@@ -14,12 +29,13 @@
             <a href="index.html"><button class="tablinks" onclick="openTab(event, 'Liz')">Liz's Archive</button></a>
             <a href="index.html"><button class="tablinks" onclick="openTab(event, 'Other')">Other Stuff</button></a>
         </span> 
-        </span>
+    </span>
+    <img id="midpoint" src="assets/letterMidpoint.png" style="float:right; margin: 0px; margin-bottom: 50%; width: 30%; height: auto">
+    <img id="hand" src="assets/handLayer.png" style="float:left; margin: 0px; bottom:zero ; width: 30%; height: auto">
     <div id="letter">
-        <h1 id="titlePoem">Title</h1>
-        <h3 id="authorPoem">Author</h3>
-        <p id="text">text</p>
+        <h1 id="titlePoem" style="font-size:xxxlarge; text-align: center; color:black">Title</h1>
+        <h3 id="authorPoem" style="text-align: center; color:black">Author</h3>
+        <p id="text" style="text-align: center; color:black">text</p>
     </div>
-    
 </body>
 </html>
