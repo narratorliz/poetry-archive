@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Poetry Archive</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Joan&display=swap" rel="stylesheet">
 </head>
 <body>
     <span class="header">
@@ -12,16 +14,54 @@
         <span class="tab">
             <button class="tablinks" data-tab="Ivy">Ivy's Archive</button>
             <button class="tablinks" data-tab="Liz">Liz's Archive</button>
-            <button class="tablinks" data-tab="Other">Other Stuff</button>
         </span> 
     </span>
     <div id="Ivy" class="tabcontent active">
         <div class="leftRow">
             <div class="entry">
-                <a href="entry.html" id="entryTitle">Poem Title</a>
-                <span class="desc">
-                    <span class="author">Author</span>
-                    <span class="date">Date sent</span>
+                <div><a href="entry.html?post=ivy6">I cannot live with you</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Emily Dickinson</span>
+                    <span>•</span>
+                    <span class="date">18/01/2025</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entry.html?post=ivy5">Last August Hours Before the Year 2000</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Naomi Shihab Nye</span>
+                    <span>•</span>
+                    <span class="date">31/12/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="https://www.beijingsilvermine.com">Beijing Silvermine</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Thomas Sauvin + archive</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entry.html?post=ivy4">Lovers of the Digital Age</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Ivy</span>
+                    <span>•</span>
+                    <span class="date">26/07/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entry.html?post=ivy2">This</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Ralph Angel</span>
+                    <span>•</span>
+                    <span class="date">18/02/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entry.html?post=ivy1">By heavens! (上邪)</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Unknown</span>
+                    <span>•</span>
+                    <span class="date">23/09/2023</span>
                 </span>
             </div>
         </div>
@@ -32,26 +72,48 @@
     <div id="Liz" class="tabcontent">
         <div class="rightRow">
             <div class="entry">
-                <a href="entry.html" id="entryTitle">Poem Title</a>
-                <span class="desc">
-                    <span class="author">Author</span>
-                    <span class="date">Date sent</span>
+                <div><a href="entryliz.html?post=liz6">Fragment Thirty-Six</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Hilda Doolittle</span>
+                    <span>•</span>
+                    <span class="date">25/01/2025</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entryliz.html?post=liz4">Remindance</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Tim Bernardes</span>
+                    <span>•</span>
+                    <span class="date">31/12/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entryliz.html?post=liz3">Chega de Saudade</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Tom Jobim</span>
+                    <span>•</span>
+                    <span class="date">25/06/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entryliz.html?post=liz2">Gmail doesn't have an 'unsend' button</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Liz</span>
+                    <span>•</span>
+                    <span class="date">17/05/2024</span>
+                </span>
+            </div>
+            <div class="entry">
+                <div><a href="entryliz.html?post=liz1">A Note (Bilhete)</a></div>
+                <span class="desc" style="font-size:large">
+                    <span class="author">Mário Quintana</span>
+                    <span>•</span>
+                    <span class="date">22/09/2023</span>
                 </span>
             </div>
         </div>
         <div class="imageBoxLiz">
             <img id="imageLiz" src="assets/imageliz.png">
-        </div>
-    </div>
-    <div id="Other" class="tabcontent">
-        <div class="rightRow">
-            <div class="entry">
-                <a href="stuff.html" id="entryTitle">Poem Title</a>
-                <span class="desc">
-                    <span class="author">Author</span>
-                    <span class="date">Date sent</span>
-                </span>
-            </div>
         </div>
     </div>
     <script>
@@ -70,7 +132,7 @@
                     document.getElementById(tabId).classList.add("active");
                 });
             });
-        });
+        });                                                                                                                                                
     </script>
 </body>
 </html>
