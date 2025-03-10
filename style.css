@@ -39,9 +39,11 @@ body, html {
   }
   .leftRow{
     float: left;
+    margin-top: 50px;
   }
   .rightRow{
     float: right;
+    margin-top: 50px;
   }
   #imageIvy{
     max-height: 80vh;
