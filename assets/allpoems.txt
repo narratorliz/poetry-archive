@@ -438,7 +438,7 @@ enough of the animal saving me, enough of the high
 water, enough sorrow, enough of the air and its ease,
 I am asking you to touch me.
 
-###liz9
+### liz9
 Title: A Sonnet on Fidelity (Soneto de Fidelidade)
 Author: Vinicius de Moraes 
 If anything, to my love I'll stay true,
@@ -462,7 +462,7 @@ as long as it is flame.
 But as long as it is flame,
 Be it endless in its burning.
 
-###ivy9
+### ivy9
 Title: With a prayer
 Author: Zeina Hashem Beck
 The herons were no longer safe in the sky. They flew with prayer,
@@ -489,7 +489,7 @@ forgot the water. Is love a lack, always imbued with prayer?
 Tarot cards, make me beautiful. Abundance me, O Three of Cups,
 spin luck O Wheel of Fortune, I’m through, I’m through, I’m through with prayer.
 
-###liz10
+### liz10
 Title: Amor constante, allá de la muerte
 Author: Francisco de Quevedo (tr. Rhina Espaillat)
 When the last shadow comes to douse the white
